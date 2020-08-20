@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>color game</title>
+	<link rel="stylesheet" type="text/css" href="rgbgame.css">
+</head>
+<body>
+	<h1>The Great 
+		<br>
+		<span id="colorDisplay"></span>
+		<br>
+		 color guessing game
+		 <br>
+		 <span id="chances">CHANCES LEFT : <span id="chancesLeft">3</span></span></h1>
+	<div id="stripe">
+		<button id="reset">New colors</button>
+		<span id="message"></span>
+		<button id="easybtn">Easy</button>
+		<button id="hardbtn" class="selected">Hard</button>
+	</div>
+	<section>
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+	</section>
+	<div >
+		<h2 class="lost">
+			
+		</h2>
+	</div>
+	<div id="howToPlay">
+			<ul>
+		<li>
+			How to play
+		</li>
+		<li>
+			R, G, B corresponds to red, green and blue respectively.
+		</li>
+		<li>
+			Each of which has value between 0 and 256
+		</li>
+		<li>
+			Try to identify the color by mixture of RED GREEN BLUE
+		</li>
+		<li>
+			You will get 3 chances in HARD mode to choose from 6 different colors
+		</li>
+		<li>
+			You will get 1 chance in EASY mode to choose from 3 different colors
+		</li>
+		<li>
+			Press the NEW COLORS button if you want to change colors.
+		</li>
+		<li>
+			Press TRY AGAIN? button if you want to try again.
+		</li>
+	</ul>
+
+	</div>
+
+
+
+
+	<script type="text/javascript" src="rgbgame.js"></script>
+	
+</body>
+</html>

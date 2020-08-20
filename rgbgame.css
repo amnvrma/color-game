@@ -1,0 +1,101 @@
+body{
+	background-color:#232323 ;
+	margin:0;
+	font-family:"Montserrat","Avenir";
+}
+.box{
+	background-color: purple;
+	width: 30%;
+	margin:1.66%;
+	padding-bottom: 30%;
+	float: left;
+	margin:1.66%;
+	border-radius: 25%;
+	transition: background 0.5s;
+	--webkit-transition:background 0.5s;
+	--moz-transition:background 0.5s;
+}
+section{
+	max-width: 600px;
+	margin: 20px auto;
+}
+h1{
+	color:white;
+	text-align: center;
+	background-color: steelblue;
+	margin:0;
+	height: 150px;
+	font-weight: normal;
+	text-transform:uppercase;
+	line-height: 1.1;
+	padding: 20px 0;
+}
+
+#chances{
+	font-size: 50%;
+	float: left;
+	margin-left: 5px;
+	font-weight: normal;
+}
+/*h3{
+	color:white;
+	background-color: steelblue;
+	font-weight: normal;
+	height: 50px;
+}*/
+/*#message{
+	color: white;
+}*/
+#stripe{
+	background :white;
+	height: 30px;
+	text-align: center;
+}
+.selected{
+	background-color: steelblue;
+	color:white;
+}
+#colorDisplay{
+	font-size: 200%;
+}
+button{
+	border:none;
+	font-family:"Montserrat","Avenir";
+	font-size: 20px;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 900;
+	color: steelblue;
+	letter-spacing: 1px;
+	transition: all 0.4s;
+	--webkit-transition:all 0.4s;
+	--moz-transition:all 0.4s;
+	outline: none;
+}
+#message{
+	display: inline-block;
+	width: 20%;
+	color: steelblue;
+	font-weight: 700;
+}
+button:hover{
+	color: white;
+	background-color: steelblue;
+}
+.lost{
+	text-align: center;
+	color: steelblue;
+	position: absolute;
+	top: 270px;
+    left: 540px;
+    font-size: 56px;
+}
+#howToPlay{
+	color: steelblue;
+	position: absolute;
+	top: 644px;
+    left: 34px;
+    font-size: 20px;
+
+}
