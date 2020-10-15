@@ -1,3 +1,2 @@
 # color-game
-
-## A color guessing game
+A color guessing game
